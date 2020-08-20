@@ -37,4 +37,4 @@ RUN pip3.6 --no-cache-dir install \
 RUN pip3.6 --no-cache-dir install tensorflow-gpu==1.5.0 -i https://pypi.doubanio.com/simple
 
 RUN pip3.6 install polyaxon -i https://pypi.doubanio.com/simple
-COPY distributed-tensorflow-example /distributed-tensorflow-example
+COPY tensorflow_distributed_example /tensorflow_distributed_example

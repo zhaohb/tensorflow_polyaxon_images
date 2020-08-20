@@ -6,4 +6,4 @@ RUN dpkg -i /libcudnn7_7.4.1.5-1+cuda10.0_amd64.deb
 RUN sh /cuda_10.0.130_410.48_linux.run --toolkit --silent
 RUN pip3.6 uninstall -y tensorflow
 RUN pip3.6 install tensorflow-gpu===1.13.1  -i https://pypi.doubanio.com/simple
-COPY distributed-tensorflow-example /distributed-tensorflow-example
+COPY tensorflow_distributed_example /tensorflow_distributed_example
