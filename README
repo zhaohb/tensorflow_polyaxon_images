@@ -1,0 +1,7 @@
+1. cd tf_polyaxon_images
+2. git clone https://github.com/zhaohb/tensorflow_distributed_example.git
+3. if create cpu image, we can run ./build_image_cpu.sh
+   if craete gpu image:
+   1) cd tf_polyaxon_images/gpu_new , 
+   2) git clone https://github.com/zhaohb/tensorflow_distributed_example.git   
+   3) then run ./build_image_gpu.sh
